@@ -12,13 +12,13 @@
     "npm": ">=2.7.0"
   },
   "repository": {
-    "url": "https://github.com/segment-integrations/analytics.js-integration-mixpanel.git",
+    "url": "https://github.com/tapstream/analytics.js-integration-tapstream.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/segment-integrations/analytics.js-integration-mixpanel/issues"
+    "url": "https://github.com/tapstream/analytics.js-integration-tapstream/issues"
   },
-  "homepage": "https://segment.com/docs/integrations/mixpanel/",
+  "homepage": "https://segment.com/docs/integrations/tapstream/",
   "dependencies": {},
   "devDependencies": {
     "duo": "0.12.x",

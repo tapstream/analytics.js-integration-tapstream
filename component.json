@@ -1,6 +1,6 @@
 {
   "name": "analytics.js-integration-tapstream",
-  "repo": "segment-integrations/analytics.js-integration-tapstream",
+  "repo": "tapstream/analytics.js-integration-tapstream",
   "description": "The Tapstream analytics.js integration.",
   "version": "1.0.0",
   "license": "MIT",
