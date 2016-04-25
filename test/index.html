@@ -5,6 +5,7 @@
     </head>
     <body>
         <div id="mocha"></div>
+        <script src="/saucelabs.js"></script>
         <script src="/node_modules/mocha/mocha.js"></script>
         <script>
             mocha.setup({
@@ -18,9 +19,12 @@
                 if (typeof _onload === 'function') {
                     _onload.apply(this, arguments);
                 }
+
                 if (window.mochaPhantomJS) {
                     mochaPhantomJS.run();
-                    } else {
+                } else if (window.saucelabs) {
+                    saucelabs(mocha.run());
+                } else {
                     mocha.run();
                 }
             };
